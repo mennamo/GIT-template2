@@ -1,0 +1,392 @@
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    width: 1920px;
+    margin: auto;
+    z-index: 3; 
+    position: relative;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+    
+    
+}
+.toptext{
+    padding: 0px 10px 10px 10px;
+    height: 10px;
+    margin-top: 0px;
+}
+.toptext h2 {
+    float: left;
+   margin: 0px;
+    font-size: 34px;
+    color: white;
+    padding: 37px 0 8px 0;
+    
+}
+.toptext ul { 
+    display: inline;
+    list-style: none;
+    overflow: hidden;
+    float: right;
+    
+}
+.toptext ul li { 
+    float: left;
+    padding: 30px 0 8px 0;
+    margin-right: 19px;
+    font-size: 18px;
+    border-bottom: 2px solid transparent;
+    font-weight: bold;
+    color: white;
+}
+.toptext ul li.active,
+.toptext ul li:hover{
+    color:#2fb39d;
+    border-bottom: 2px solid #2fb39d;;
+} 
+.toptext ul li a {
+    color: white;
+    text-decoration: none;
+}
+.toptext ul li.active a,
+.toptext ul li a:hover{
+    color:#2fb39d;
+} 
+
+.slider{
+    background: url(../images/cosmetices.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: -15px;
+    position: relative;
+}
+.slider .overlay{
+    position: absolute;
+    width: 100%; height: 100%;
+    top: 0; bottom: 0; right: 0; left: 0;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 1;
+}
+
+.slider .bx-wrapper {
+    background: none;
+    box-shadow: none;
+    border: 0;
+    height: 100%;
+    
+}
+.slider .bx-wrapper .bx-viewport{
+    text-align: center;
+    color: white;
+    height: 100% !important;
+}
+.slider .bxslider{
+    height: 100%;
+}
+
+.slider .bxslider .ll h2{
+    font-size: 60px;
+    margin-bottom: 2px;
+    margin-top: 0px;
+}
+.slider .bxslider .ll h2 span{
+    color: #2fb39d;
+}
+.slider .bxslider .ll p{
+    font-size: 21px;
+}
+
+.services{
+    padding: 20px 5px 120px 5px;
+}
+.services span{
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+}
+.services h2{ 
+    font-size: 38px;
+    font-weight: bolder;
+}
+.services h3{
+    font-weight: bolder;
+    font-size: 29px;
+    margin-bottom: 20px;
+    margin-top: 13%;
+
+}
+.item{
+    float: left;
+    width: 33.33333%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.item .text p {
+    max-width: 271px;
+    font-size: 20px;
+    color: #838284;
+}
+.item i {
+    float:left;
+    width:20%;
+    margin-right: 2%;
+    margin-top: 9%;
+}
+.item .text{float: left; width: 75%;}
+.clearfix{ clear: both; }
+
+.line{
+    border:2px solid  #EEE;
+}
+.ourteam{
+    padding: 25px 5px 114px 5px;
+   
+}
+.ourteam span{
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+}
+.ourteam h2{ 
+     font-size: 38px;
+    font-weight: bolder;
+}
+.ourteam .cont1 {float: left; width: 25%;  padding-right: 10px;}
+.ourteam .cont1 p { font-size: 20px; color: #838284; }
+.ourteam .cont2 {
+    float: left; width: 15%;
+     margin-top: 37px; margin-right: 3%;
+      position: relative;
+      transition: all 2s ease-in-out;
+    }
+.ourteam .cont2 .overlay{
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(26,188,156,0.6);
+    line-height: 196px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    display: none;
+    transition: all 2s ease-in-out;
+    }
+.ourteam .cont2 .overlay span{
+    border-bottom: 3px solid white;
+    padding-bottom: 10px;
+}
+.ourteam .cont2:hover .overlay{
+    display: block;
+}
+.cont2 img{
+    width: 100%;
+    height: 228px;
+}
+.testimon{
+    background: url(../images/citylights2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 560px;
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 45px;
+}
+
+.testimon .overlay{
+    position: absolute;
+    width: 100%; height: 100%;
+    top: 0; bottom: 0; right: 0; left: 0;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 1;
+    
+}
+.testimon span{
+    border-bottom: 3px solid white;
+    padding-bottom: 10px;
+}
+.testimon h3{
+    font-size: 51px;
+    font-weight: bolder;
+    padding-top: 7%;
+    padding-bottom: 2%;
+}
+.testimon p{font-size: 22px; margin-bottom: -3px;}
+.testimon h2{
+    padding-left: 42%;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #2fb39d;
+    font :italic small-caps bold 24px/29px Georgia, serif;
+}
+.testimon .secslider > div{
+   display: none;
+}
+.testimon .secslider  .active{
+    display: block;
+}
+.projects{
+    padding-top: 26px;
+    height: 818px;
+}
+.projects span{
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+}
+.projects h3{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.projects .pics .pcs{
+    float: left;
+    width: 23%;
+    margin: 10px 12px 16px 5px;
+    height: 215px;
+    position: relative;
+    transition: all 2s ease-in-out;
+}
+.projects .pics .pcs img{
+   width: 100%;
+    height: 100%;
+}
+.projects .pics .pcs .overlay{
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(26,188,156,0.6);
+    line-height: 196px;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    display: none;
+    transition: all 2s ease-in-out;
+}
+.projects .pics .pcs .overlay span{
+    border: 1px solid white;
+    padding: 10px 15px 10px 15px;
+}
+.projects .pics .pcs .overlay .heart{
+    color: white;
+    display: block;
+    margin:-120px 18px -90px 168px;
+    border: none;
+
+}
+.projects .pics .pcs:hover .overlay{
+    display: block;
+}
+.projects .shuffle{
+    margin-bottom: 39px;
+    margin-top: 61px;
+}
+}
+.projects h3{margin: 60px 2px 46px 2px;}
+.projects button{
+    padding: 11px 15px 11px 14px;
+    background-color: white;
+    border: 1px solid #838284;
+    color: #838284;
+    margin-right: 10px;
+}
+.projects  button:hover{
+    background-color: #2fb39d;
+    color: white;
+    cursor: pointer;
+}
+.projects button.selected{
+    background-color: #2fb39d;
+    color: white;
+    border: 1px solid #838284;
+}
+.projects .pics .mix{
+   display: none;
+}
+.footer{
+    height: 556px;
+    width: 100%;
+    background-color: #1B1A1B;
+    color: white;
+    
+}
+.footer .aa{
+    float : left;
+    width: 23%;
+   
+}
+.footer .bb{
+    margin-right: 2%;
+}
+.footer .aa h2{
+    font-size: 21px;
+    font-weight: bolder;
+    margin-top: 96px;
+    color: #BDBCBD;
+    margin-bottom: 47px;
+}
+.footer .aa p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 23px;
+    font-size: 12px;
+    color: #BDBCBD;
+    margin-bottom: 62px;
+    
+}
+.footer .aa span{
+    border: 1px solid #605F60;
+    padding: 10px;
+    margin-right: 5px;
+}
+.footer .aa .taag{
+    margin-bottom: 40px;
+    color: #BDBCBD;
+    margin-top: 65px;
+}
+.footer .aa .taag span{
+    width: 33.33333%;
+    border: 1px solid  #605F60;  
+}
+.footer .aa .tagg{
+    color: #BDBCBD;
+}
+
+.footer .aa .vogue img{
+    width: 68px;
+    height: 56px;
+    float: left;
+    margin-right: 12px;
+}
+.footer .aa .vogue p {
+    font-size: 12px;
+    color: #BDBCBD;
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+.footer .aa .vogue p  span {
+    display: block;
+    color: #BDBCBD;
+    padding: 5px 5px 4px 96px;
+    font-size: 12px;
+    border: none;
+}
+.footer .aa h5{
+    color: #BDBCBD;
+}
+.footer .aa hr{
+    border: 1px solid #838284;
+}
+.footer .copyright{
+    margin-top: 83px;
+    font :italic small-caps bold 24px/29px Georgia, serif;
+}
+.footer .copyright p {
+    color: #BDBCBD;
+    font-weight: bold;
+    font-size: 19px;
+}
